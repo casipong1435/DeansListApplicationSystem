@@ -1,0 +1,72 @@
+.custom-form:focus{
+  box-shadow: 0 0 3px 0px #317453c5;
+  border: 1px solid #317453c5;
+  border-radius: 2px;
+  outline: transparent;
+}
+.custom-button{
+  border: 1px solid #317453c5;
+  background: transparent;
+  padding: 0.6rem;
+  color: #317453c5;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.custom-button-1{
+  border: 1px solid #2b76cac5;
+  background: transparent;
+  padding: 0.4rem;
+  color: #2b76cac5;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.custom-button-2{ 
+  border: 1px solid #5f5f5fc5;
+  background: transparent;
+  padding: 0.4rem;
+  color: #5f5f5fc5;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.custom-button-3{ 
+  border: 1px solid #ec6262c5;
+  background: transparent;
+  padding: 0.4rem;
+  color: #ec6262c5;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.custom-button:hover{
+  background: #317453c5;
+  color: white;
+}
+.custom-button-2:hover{
+  background: #5f5f5fc5;
+  color: white;
+}
+.custom-button-3:hover{
+  background: #ec6262c5;
+  color: white;
+}
+.custom-button-1:hover{
+  background: #2b76cac5;
+  color: white;
+}
+.semester_item{
+  border-top: 5px solid #317453c5;
+}
+.semester-group{
+  border-bottom: 1px solid #317453c5;
+}
+.custom-table-container{
+  border-top: 5px solid #317453c5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+ul li.notification:hover{
+  background: #aaaaaa;
+}

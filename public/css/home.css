@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.sb-color{
+    background: #268157;
+}
+.second-text{
+    color: #C7C7C7;
+}
+.rounded-full{
+    border-radius: 100%;
+}
+#wrapper{
+    overflow-x: hidden;
+}
+#sidebar-wrapper{
+    min-height: 100vh;
+    margin-left: -15rem;
+    transition: margin 0.25s ease-out;
+}
+#sidebar-wrapper .sidebar-heading{
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+.sidebar-heading{
+    background: #2fac71;
+}
+#navbar-top{
+    background-color: #ffffff;
+    box-shadow: 10px 0 12px 1px;
+    
+}
+#sidebar-wrapper .list-group{
+    width: 15rem;
+}
+#page-content-wrapper{
+    min-width: 100vw;
+}
+#wrapper.toggled #sidebar-wrapper{
+    margin-left: 0;
+}
+#menu-toggle{
+    cursor: pointer;
+    color: #000;
+}
+a.list-group-item{
+    border: none;
+    padding: 12px 20px;
+}
+
+a.list-group-item{
+    color: #C7C7C7;
+    background: transparent;
+}
+a.list-group-item:hover{
+    color: #fff;
+    background-color: #6ac493;
+}
+a.list-group-item.current{
+    background-color: transparent;
+    background-color: #6ac493;
+    color: #fff;
+}
+
+button.list-group-item{
+    border: none;
+    padding: 12px 20px;
+}
+button.list-group-item{
+    color: #C7C7C7;
+    background: transparent;
+}
+button.list-group-item:hover{
+    color: #fff;
+    background-color: #6ac493;
+}
+.profile{
+    height: 18%;
+    background-color: #232323;
+}
+img.photo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 30px 10px;
+}
+.name,.role{
+    color: white;
+}
+.page-title{
+    color: black;
+    font-weight: bold;
+}
+.footer-dashboard{
+    background-color: #868686;
+}
+.copyright{
+    color: black;
+    font-weight: bold;
+}
+
+#modal-button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+}
+.sex-radio{
+    display: flex;
+    overflow: hidden;
+}
+.warning-icon{
+    font-size: 5rem;
+}
+.warning-text{
+    font-size: 1rem;
+}
+.add-semester{
+    background: #2f7c5f;
+    cursor: pointer;
+}
+.add-semester:hover{
+    background: #225c45;
+}
+.download_icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px 10px 0 0;
+}
+.bg-unreadNotif{
+    background: #cecece;
+}
+
+
+@media (min-width: 768px) {
+    #sidebar-wrapper{
+        margin-left: 0;
+    }
+
+    #page-content-wrapper{
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper{
+        margin-left: -15rem;
+    }
+}

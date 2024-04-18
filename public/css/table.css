@@ -1,0 +1,65 @@
+.table-holder{
+    height: 100%;
+    width: 100%;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #d4d4d4;
+
+}
+thead{
+    background: #aadfbe;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+th{
+    font-weight: bold;
+}
+td{
+    font-size: 15px;
+    background: #fff;
+    border-bottom: 1px solid #919191;
+}
+.btn-circle{
+    border-radius: 50%;
+}
+
+@media (max-width: 1250px) {
+    table{
+        background: transparent;
+        box-shadow: 0 0 10px 2px #a0a0a0;
+    }
+    table thead{
+        display: none;
+
+    }
+    table, tbody, tr, td{
+        display: block;
+        width: 100%;
+    }
+    table tr{
+        margin-bottom: 15px;
+    }
+    table td{
+        text-align: right;
+        padding:5px 5px 5px 50%;
+        position: relative;
+
+    }
+    table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+        
+    }
+}

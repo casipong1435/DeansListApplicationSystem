@@ -1,0 +1,10 @@
+.nav-item.active{
+    border-bottom: 1px solid black;
+}
+
+label.password-icon{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
